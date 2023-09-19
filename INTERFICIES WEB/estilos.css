@@ -1,0 +1,23 @@
+/* CSS Document */
+@charset "utf-8";
+
+*{
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+
+.cabezal {
+    background-color:lightcoral;
+    width: 100%;
+    height: 50px;
+}
+
+.fotocv {
+    margin: 50px 0px 0px 50px;
+    width: 190px;
+    height: 240px;
+    border: 
+}

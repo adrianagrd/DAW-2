@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+.titulo1 {
+    margin-left: 480px ;
+    font-weight: 800;
+}
+/*
+section{
+    border: solid lightgray;
+    border-width: 0 2px 0 0 ;
+} */
+
+.enlaces {
+    color: gray;
+    box-shadow: none;
+    text-decoration: none;
+    width: 50% ;
+    margin-left: 440px ;
+    word-spacing: 9px;
+}
+
+.botones {
+    border-radius: 3px;
+    border: 1px grey solid;
+    background-color: transparent;
+    padding: 3px;
+}
+
+a{  
+    color: #555555;
+    text-decoration: none;
+}
+
+.posts{
+    float: left;
+    padding-right: 20px;
+    width: 70%;
+    border: 1px solid grey;
+    border-top: none;
+    border-left: none;
+}
+
+h2{
+    color: black;
+    font-weight: bolder;
+}
+
+h5{
+    font-weight: 900;
+}
+
+.rightposts{
+    color: #555555;
+    float: left; 
+    width: 30%;
+    border: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: -16px;
+}
+
+.fechapub {
+    color: #484848;
+    font-size: small;
+    font-style: italic;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: lightgray;
+}
+
+.texto {
+    font-weight: 600;
+}
+
+#copyright{
+    margin-top: 35% ;
+    text-align: center;
+}
+
+div.rightposts ul{
+    margin-left: -25px;
+}
+
+div.rightposts ul li{
+    margin-bottom: 2px;
+}
+
+footer {
+    clear: both;
+}
+
