@@ -1,62 +1,63 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-  <title>Welcome to my blog</title>
-  <link rel="stylesheet" href="./index.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 
-<body>
-  <header class="header">
-    <h1 class="titulo1">Welcome to My Blog</h1>
-    <nav class="top-nav">
-      <ul class="enlaces">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#Categories">Categories</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="main-content">
-    <section>
-      <article class="posts">
-        <h2>Post Title 1</h2>
-        <p class="fechapub"><b>Published on September 12, 2023 by John Doe</b></p>
-        <p class="texto">This is the content of the blog post...</p>
-        <p class="texto">More content goes here...</p>
-      </article>
-      <article class="posts">
-        <h2>Post Title 2</h2>
-        <p class="fechapub"><b>Published on September 10, 2023 by Jane Smith</b></p>
-        <p class="texto">This is another blog post...</p>
-        <p class="texto">More content goes here...</p>
-      </article>
-    </section>
-    <aside>
-      <section class="rightposts">
-        <h2 class="h2-right">Recent Posts</h2>
-        <ul>
-          <li><a href="#Post_1">Post title 1</a></li>
-          <li><a href="#Post_2">Post title 2</a></li>
-          <li><a href="#Post_3">Post title 3</a></li>
-        </ul>
-      </section>
-      <section class="rightposts2">
-        <h2 class="h2-right">Categories</h2>
-        <ul>
-          <li><a href="#Category_1">Category 1</a></li>
-          <li><a href="#Category_2">Category 2</a></li>
-          <li><a href="#Category_3">Category 3</a></li>
-        </ul>
-      </section>
-    </aside>
-  </main>
-  <footer>
-    <p id="copyright">&copy; 2023 My Blog. All rights reserved.</p>
-  </footer>
+<body class="wrapper">
+    <header class="header-top">
+        <h1 class="header-top__heading">Welcome to my blog</h1>
+        <nav class="header-top__nav">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <section>
+            <article>
+                <h2>Post title 1</h2>
+                <p class="p1">Published on September 12, 2023 by John Doe</p>
+                <p>This is the content of the blog post...</p>
+                <p>More content goes here...</p>
+            </article>
+            <article>
+                <h2>Post title 2</h2>
+                <p class="p1">Published on September 10, 2023 by Jane Smith</p>
+                <p>This is another blog post...</p>
+                <p>More content goes here...</p>
+            </article>
+        </section>
+        <aside>
+            <section>
+                <h2>Recent posts</h2>
+                <ul>
+                    <li><a href="#">Post title 1</a></li>
+                    <li><a href="#">Post title 2</a></li>
+                    <li><a href="#">Post title 3</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 My blog. All rights reserved</p>
+    </footer>
 </body>
+
 </html>
